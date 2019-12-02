@@ -1,0 +1,108 @@
+[03-Mar-2018 07:08:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/dra9cqhje3t/public_html/wp-content/themes/cafe-faucher/404.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/dra9cqhje3t/public_html/wp-content/themes/cafe-faucher/404.php on line 8
+[03-Mar-2018 07:08:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/dra9cqhje3t/public_html/wp-content/themes/cafe-faucher/404.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/dra9cqhje3t/public_html/wp-content/themes/cafe-faucher/404.php on line 8
+[07-Mar-2018 03:24:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/dra9cqhje3t/public_html/wp-content/themes/cafe-faucher/404.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/dra9cqhje3t/public_html/wp-content/themes/cafe-faucher/404.php on line 8
+[07-Mar-2018 03:24:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/dra9cqhje3t/public_html/wp-content/themes/cafe-faucher/404.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/dra9cqhje3t/public_html/wp-content/themes/cafe-faucher/404.php on line 8
+[24-Mar-2018 09:14:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/dra9cqhje3t/public_html/wp-content/themes/cafe-faucher/archive.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/dra9cqhje3t/public_html/wp-content/themes/cafe-faucher/archive.php on line 10
+[24-Mar-2018 09:14:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/dra9cqhje3t/public_html/wp-content/themes/cafe-faucher/archive.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/dra9cqhje3t/public_html/wp-content/themes/cafe-faucher/archive.php on line 10
+[24-Mar-2018 19:55:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/dra9cqhje3t/public_html/wp-content/themes/cafe-faucher/archive.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/dra9cqhje3t/public_html/wp-content/themes/cafe-faucher/archive.php on line 10
+[24-Mar-2018 19:55:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/dra9cqhje3t/public_html/wp-content/themes/cafe-faucher/archive.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/dra9cqhje3t/public_html/wp-content/themes/cafe-faucher/archive.php on line 10
+[25-Mar-2018 17:16:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function language_attributes() in /home/dra9cqhje3t/public_html/wp-content/themes/cafe-faucher/header.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/dra9cqhje3t/public_html/wp-content/themes/cafe-faucher/header.php on line 2
+[25-Mar-2018 17:16:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function language_attributes() in /home/dra9cqhje3t/public_html/wp-content/themes/cafe-faucher/header.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/dra9cqhje3t/public_html/wp-content/themes/cafe-faucher/header.php on line 2
+[26-Mar-2018 04:11:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/dra9cqhje3t/public_html/wp-content/themes/cafe-faucher/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/dra9cqhje3t/public_html/wp-content/themes/cafe-faucher/index.php on line 10
+[26-Mar-2018 04:11:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/dra9cqhje3t/public_html/wp-content/themes/cafe-faucher/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/dra9cqhje3t/public_html/wp-content/themes/cafe-faucher/index.php on line 10
+[26-Mar-2018 10:19:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/dra9cqhje3t/public_html/wp-content/themes/cafe-faucher/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/dra9cqhje3t/public_html/wp-content/themes/cafe-faucher/index.php on line 10
+[26-Mar-2018 10:19:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/dra9cqhje3t/public_html/wp-content/themes/cafe-faucher/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/dra9cqhje3t/public_html/wp-content/themes/cafe-faucher/index.php on line 10
+[07-May-2018 12:53:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/dra9cqhje3t/public_html/wp-content/themes/cafe-faucher/404.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/dra9cqhje3t/public_html/wp-content/themes/cafe-faucher/404.php on line 8
+[10-Oct-2018 09:44:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/dra9cqhje3t/public_html/wp-content/themes/cafe-faucher/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/dra9cqhje3t/public_html/wp-content/themes/cafe-faucher/index.php on line 10
+[15-Dec-2018 04:29:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/dra9cqhje3t/public_html/wp-content/themes/cafe-faucher/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/dra9cqhje3t/public_html/wp-content/themes/cafe-faucher/index.php on line 10
+[30-Jul-2019 17:27:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/dra9cqhje3t/public_html/wp-content/themes/cafe-faucher/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/dra9cqhje3t/public_html/wp-content/themes/cafe-faucher/index.php on line 10
+[07-Sep-2019 07:39:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/dra9cqhje3t/public_html/wp-content/themes/cafe-faucher/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/dra9cqhje3t/public_html/wp-content/themes/cafe-faucher/index.php on line 10
+[28-Sep-2019 20:51:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/dra9cqhje3t/public_html/wp-content/themes/cafe-faucher/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/dra9cqhje3t/public_html/wp-content/themes/cafe-faucher/index.php on line 10
+[22-Oct-2019 21:20:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/dra9cqhje3t/public_html/wp-content/themes/cafe-faucher/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/dra9cqhje3t/public_html/wp-content/themes/cafe-faucher/index.php on line 10
+[22-Oct-2019 21:20:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/dra9cqhje3t/public_html/wp-content/themes/cafe-faucher/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/dra9cqhje3t/public_html/wp-content/themes/cafe-faucher/index.php on line 10
+[22-Oct-2019 21:20:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/dra9cqhje3t/public_html/wp-content/themes/cafe-faucher/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/dra9cqhje3t/public_html/wp-content/themes/cafe-faucher/index.php on line 10
+[22-Oct-2019 21:20:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/dra9cqhje3t/public_html/wp-content/themes/cafe-faucher/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/dra9cqhje3t/public_html/wp-content/themes/cafe-faucher/index.php on line 10
+[22-Oct-2019 21:20:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/dra9cqhje3t/public_html/wp-content/themes/cafe-faucher/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/dra9cqhje3t/public_html/wp-content/themes/cafe-faucher/index.php on line 10
+[22-Oct-2019 21:20:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/dra9cqhje3t/public_html/wp-content/themes/cafe-faucher/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/dra9cqhje3t/public_html/wp-content/themes/cafe-faucher/index.php on line 10
+[11-Nov-2019 12:48:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/dra9cqhje3t/public_html/wp-content/themes/cafe-faucher/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/dra9cqhje3t/public_html/wp-content/themes/cafe-faucher/index.php on line 10
