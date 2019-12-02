@@ -3,7 +3,7 @@
 * Header file for the Cafe Faucher WordPress theme.
 *
 * @package Cafe_Faucher
-* @since Cafe Faucher 1.0
+* @since Cafe Faucher 1.1
 */
 ?><!DOCTYPE html>
 <html <?php language_attributes();?>>
