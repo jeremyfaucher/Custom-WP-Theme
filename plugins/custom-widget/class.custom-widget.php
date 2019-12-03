@@ -8,8 +8,8 @@ class Custom_Widget extends WP_Widget {
 	function __construct() {
 		parent::__construct(
 			'custom_widget', // Base ID
-			__( 'Custom Widget', 'cafe_faucher' ), // Name
-			array( 'description' => __( 'An example of a custom widget', 'cafe_faucher' ), ) // Args
+			__( 'Custom Widget', 'cafe-faucher' ), // Name
+			array( 'description' => __( 'An example of a custom widget', 'cafe-faucher' ), ) // Args
 		);
 	}
 
@@ -26,7 +26,7 @@ class Custom_Widget extends WP_Widget {
 		if ( ! empty( $instance['title'] ) ) {
 			echo $args['before_title'] . apply_filters( 'widget_title', $instance['title'] ). $args['after_title'];
 		}
-		//echo __( 'Hello, World!', 'cafe_faucher' );
+		//echo __( 'Hello, World!', 'cafe-faucher' );
 		//echo $args['after_widget'];
 	}
 
@@ -38,7 +38,7 @@ class Custom_Widget extends WP_Widget {
 	 * @param array $instance Previously saved values from database.
 	 */
 	public function form( $instance ) {
-		$title = ! empty( $instance['title'] ) ? $instance['title'] : __( 'New title', 'cafe_faucher' );
+		$title = ! empty( $instance['title'] ) ? $instance['title'] : __( 'New title', 'cafe-faucher' );
 		?>
 		<p>
 		<label for="<?php echo $this->get_field_id( 'title' ); ?>"><?php _e( 'Title:' ); ?></label>
