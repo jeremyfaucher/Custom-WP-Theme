@@ -11,7 +11,7 @@ get_header(); ?>
 <main>
   <div class="container main-inner">
     <section class="padding-fix col-xs-12 col-sm-12 col-md-12 col-lg-12">
-      
+      sdfdsfsdfsd
       <h1><?php echo apply_filters( 'the_title', get_the_title( get_option( 'page_for_posts' ) ) ); ?></h1>
     </section>
     <section class="col-xs-12 col-sm-12 col-md-8 col-lg-8 no-left no-right">

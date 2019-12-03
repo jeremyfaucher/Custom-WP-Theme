@@ -1,0 +1,44 @@
+#about-us .container {
+width: 100%;
+padding-right: 15px;
+padding-left: 15px;
+margin-right: auto;
+margin-left: auto;
+display: table;
+content: " ";
+}
+#contact .container {
+width: 747px;
+padding-right: 15px;
+padding-left: 15px;
+margin-right: auto;
+margin-left: auto;
+}
+h1.entry-title {
+margin-bottom: 5px;
+}
+span.sub {
+font-weight: 300;
+}
+/* Body */
+input, textarea {
+width: 100%;
+}
+textarea {
+min-height: 112px;
+}
+form.email input {
+margin-bottom: 12px;
+}
+form.email button.btn-primary {
+outline: none;
+color: white;
+border: none;
+background: #0fa2e2;
+padding: 12px;
+}
+@media (max-width: 747px){
+#contact .container {
+width: 100%;
+}
+}
