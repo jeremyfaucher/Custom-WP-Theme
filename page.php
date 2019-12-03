@@ -12,7 +12,7 @@ get_header();
 		<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 			<h1><?php the_title(); ?></h1>
 			<div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 feature-box no-left no-right">
-					<?php the_content(); ?>
+				<?php the_content(); ?>
 				<div class="clearfix"></div>
 				<section class="col-xs-12 col-sm-12 col-md-12 col-lg-12 feature-box comments">
 					<?php comments_template( '', true ); ?>

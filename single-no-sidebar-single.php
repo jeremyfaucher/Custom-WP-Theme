@@ -20,7 +20,7 @@ get_header(); ?>
     <section class="col-xs-12 col-sm-12 col-md-12 col-lg-12 no-sidebar full-width">
       <div class="row">
         <?php while ( have_posts() ) : the_post(); ?>
-          <?php get_template_part( 'content-blog', get_post_format() ); ?>
+          <?php get_template_part( 'template-parts/content-blog', get_post_format() ); ?>
         <?php endwhile; // end of the loop. ?>
       </div>
     </section>

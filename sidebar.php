@@ -7,4 +7,3 @@
 		dynamic_sidebar('sidebar-home'); } ?>
 	<?php endif; ?>
 </aside>
-

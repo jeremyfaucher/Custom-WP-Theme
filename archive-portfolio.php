@@ -48,7 +48,7 @@ while ( have_posts() ) : the_post();
 				 * this in a child theme then include a file called called content-___.php
 				 * (where ___ is the post format) and that will be used instead.
 				 */
-				get_template_part( 'content-portfolio-archive', get_post_format() );
+				get_template_part( 'template-parts/content-portfolio-archive', get_post_format() );
 				endwhile;
 				?>
 			<?php else : ?>

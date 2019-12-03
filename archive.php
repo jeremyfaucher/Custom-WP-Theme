@@ -31,7 +31,7 @@ get_header(); ?>
 				<?php
 				/* Start the Loop */
 				while ( have_posts() ) : the_post();
-				get_template_part( 'content-category-archive', get_post_format() );
+				get_template_part( 'template-parts/content-category-archive', get_post_format() );
 				endwhile;
 				cafefaucher_content_nav( 'nav-below' );
 				?>
