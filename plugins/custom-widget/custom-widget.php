@@ -10,9 +10,9 @@
  */
  
  //Add JavaScript
- function add_scripts(){
-	wp_enqueue_script('custom-scripts',plugins_url().'/custom/js/custom-widget.js',false);
- }
+ //function add_scripts(){
+	//wp_enqueue_script('custom-scripts',plugins_url().'/custom/js/custom-widget.js',false);
+ //}
  
  add_action('wp_enqueue_scripts','add_scripts');
  

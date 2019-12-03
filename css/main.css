@@ -128,36 +128,7 @@ font-size: 16px;
 color: #333;
 text-decoration: none;
 }
-/* WP Columns */
-.wp-block-columns {
-    flex-wrap: nowrap;
-}
-.wp-block-columns {
-    display: flex;
-    margin-bottom: 28px;
-    flex-wrap: wrap;
-}
-.wp-block-column {
-    flex-grow: 1;
-    min-width: 0;
-}
-@media (min-width: 782px) {
-.wp-block-columns {
-    flex-wrap: nowrap;
-}
-.wp-block-column:not(:first-child) {
-    margin-left: 32px;
-}
-}
-@media (min-width: 600px) {
-.wp-block-column {
-    flex-basis: calc(50% - 16px);
-    flex-grow: 0;
-}
-.wp-block-column:nth-child(2n) {
-    margin-left: 32px;
-}
-}
+
 
 /* Columns */
 .container {
@@ -284,6 +255,9 @@ margin-bottom: 48px;
 }
 /* Header */
 header {
+display: grid;
+grid-template-columns: 1fr 4fr;
+align-items: baseline;
 height: 140px;
 margin-bottom: 33px;
 }
@@ -303,10 +277,21 @@ vertical-align: top;
 /* New Nav */
 .header-menu {
 list-style: none;
-    justify-content: space-around;
-    height: 100px;
-    align-items: center;
-    font-size: 18px;
+justify-content: space-around;
+height: 100px;
+align-items: center;
+font-size: 18px;
+}
+.menu-block {
+align-items: right;
+justify-self: end;
+}
+ul.header-menu {
+display: inline-block;
+}
+.header-menu li.menu-item {
+display: inline-block;
+margin-right: 30px;
 }
 .header-menu li a{
 color: black;
@@ -317,9 +302,9 @@ transition: all 0.3s ease-in-out;
 color: #737373;
 }
 #hamburger{
-    width: 30px;
-    height: 49px;
-    position: absolute;
+width: 30px;
+height: 49px;
+position: absolute;
 z-index: 5;
 opacity: 1;
 }
@@ -331,9 +316,9 @@ border:2px solid #555;
 }
 label.hamb{
 font-size: 3em;
-    position: absolute;
-    cursor: pointer;
-    display: none;
+position: absolute;
+cursor: pointer;
+display: none;
 }
 .mobile{
 list-style:none;
@@ -359,11 +344,15 @@ label.hamb{
 display:block;
 z-index:4;
 }
-.header-menu{
+ul.header-menu{
 display:none;
 }
 .mobile{
 padding: 20px 0;
+}
+.menu-block {
+width: 100%;
+justify-self: start;
 }
 .mobile-menu{display: block;}
 .mobile li a{
@@ -660,6 +649,9 @@ p.woocommerce-shipping-destination {
 display: none;
 }
 /* header cart */
+.cart-block {
+display:inline-block;
+}
 .cart-contents:before {
 font-family:WooCommerce;
 content: "\e01d";

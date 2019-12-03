@@ -13,11 +13,11 @@
   <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
-  <header class="site-header container wp-block-columns" role="banner">
-   <div class="wp-block-column logo">
-    <a href="<?php site_url(); ?>" class="desktop" rel="home" itemprop="url"><img src="<?php site_url(); ?>/wp-content/uploads/logo.png" class="logo" alt="Chip Bakery" /></a>
+  <header class="site-header container" role="banner">
+   <div class="logo">
+    <a href="<?php echo get_home_url(); ?>" class="desktop" rel="home" itemprop="url"><img src="<?php site_url(); ?>/wp-content/uploads/logo.png" class="logo" alt="Chip Bakery" /></a>
   </div>
-  <div class="wp-block-column">
+  <div class="menu-block">
    <nav class="mobile-menu">
     <input id="hamburger" type="checkbox" name="hamb" value="hamb">
     <label class="hamb" for="hamb">☰</label>
@@ -31,10 +31,14 @@
   <?php wp_nav_menu(array(
     'theme_location' => 'main', 
     'container' => false, 
-    'menu_class' => 'header-menu wp-block-columns',
-    "li_class" => "wp-block-column", 
+    'menu_class' => 'header-menu',
+    //"li_class" => "wp-block-column", 
   )); 
   ?>
+  <?php
+  // Output the menu modal.
+get_template_part( 'template-parts/cf-woocommerce-cart' );
+?>
 </div>
 <script type="text/javascript">
 // This JS is use to change between the hamburger icon and the X icon
@@ -51,8 +55,5 @@ checkbox.onclick = function(){
   checker();
 }
 </script>
-<?php
-  // Output the menu modal.
-get_template_part( 'template-parts/cf-woocommerce-cart' );
-?>
+
 </header>
