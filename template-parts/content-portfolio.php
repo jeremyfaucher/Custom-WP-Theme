@@ -38,8 +38,8 @@
   <span class="nav-previous">
     <?php previous_post_link( '%link', '<span class="meta-nav"><i class="fa fa-chevron-left"></i></span> %title', TRUE ); ?>
   </span> <span class="nav-next">
-  <?php next_post_link( '%link', '%title <span class="meta-nav"><i class="fa fa-chevron-right"></i></span>', TRUE ); ?>
-</span> 
+    <?php next_post_link( '%link', '%title <span class="meta-nav"><i class="fa fa-chevron-right"></i></span>', TRUE ); ?>
+  </span> 
 </nav>
 <?php
 if(is_active_sidebar('after_entry-blog')){

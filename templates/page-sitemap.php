@@ -1,7 +1,7 @@
 <?php 
 /**
- * Template Name: Sitemap Page 
- */ 
+* Template Name: Sitemap Page 
+*/ 
 get_header(); 
 ?>
 <main>

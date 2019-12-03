@@ -35,18 +35,18 @@
   </article>
 </div>
 <div class="container-centered">
-<nav class="nav-pagination" role="navigation">
-  <span class="nav-previous">
-    <?php previous_post_link( '%link', '<span class="meta-nav">' . _x( '<i class="fa fa-chevron-left"></i>', 'Previous post link', 'cafe-faucher' ) . '</span> %title' ); ?>
-  </span> <span class="nav-next">
-  <?php next_post_link( '%link', '%title <span class="meta-nav">' . _x( '<i class="fa fa-chevron-right"></i>', 'Next post link', 'cafe-faucher' ) . '</span>' ); ?>
-</span> 
-</nav>
-<?php
-if(is_active_sidebar('after_entry-blog')){
-  dynamic_sidebar('after_entry-blog');
-}
-?>
+  <nav class="nav-pagination" role="navigation">
+    <span class="nav-previous">
+      <?php previous_post_link( '%link', '<span class="meta-nav">' . _x( '<i class="fa fa-chevron-left"></i>', 'Previous post link', 'cafe-faucher' ) . '</span> %title' ); ?>
+    </span> <span class="nav-next">
+      <?php next_post_link( '%link', '%title <span class="meta-nav">' . _x( '<i class="fa fa-chevron-right"></i>', 'Next post link', 'cafe-faucher' ) . '</span>' ); ?>
+    </span> 
+  </nav>
+  <?php
+  if(is_active_sidebar('after_entry-blog')){
+    dynamic_sidebar('after_entry-blog');
+  }
+  ?>
 </div>
 <div class="clearfix"></div>
 <div class="comments feature-box">

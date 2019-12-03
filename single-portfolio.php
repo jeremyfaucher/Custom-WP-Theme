@@ -33,7 +33,7 @@ get_header(); ?>
       <span class="nav-next">
         <?php next_post_link( '%link', '%title <span class="meta-nav">' . _x( '<i class="fa fa-chevron-right"></i>', 'Next post link', 'cafe-faucher-child' ) . '</span>' ); ?>
       </span> 
-    </nav>    <!-- .nav-single --> 
+    </nav><!-- .nav-single --> 
   </div>
 </div><!-- end of main-inner -->
 </main><!-- end of main -->

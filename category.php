@@ -39,7 +39,3 @@ get_header(); ?>
   </div><!-- end of main-inner -->
 </main><!-- end of main -->
 <?php get_footer(); ?>
-
-
-
-

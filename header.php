@@ -37,8 +37,8 @@
   ?>
   <?php
   // Output the menu modal.
-get_template_part( 'template-parts/cf-woocommerce-cart' );
-?>
+  get_template_part( 'template-parts/cf-woocommerce-cart' );
+  ?>
 </div>
 <script type="text/javascript">
 // This JS is use to change between the hamburger icon and the X icon
@@ -55,5 +55,4 @@ checkbox.onclick = function(){
   checker();
 }
 </script>
-
 </header>

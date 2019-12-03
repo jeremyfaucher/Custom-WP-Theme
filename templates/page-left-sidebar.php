@@ -15,14 +15,14 @@ get_header();
 				<?php the_content(); ?>
 			</section>
 			<aside class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-md-pull-8 no-left">
-			<?php if ( is_active_sidebar( 'sidebar-page-left' ) ) :
-			dynamic_sidebar( 'sidebar-page-left' ); ?>      
-		<?php else : ?>
-			<?php
-			if(is_active_sidebar('sidebar-home')){
-				dynamic_sidebar('sidebar-home'); } ?>
-			<?php endif; ?>
-		</aside>
+				<?php if ( is_active_sidebar( 'sidebar-page-left' ) ) :
+				dynamic_sidebar( 'sidebar-page-left' ); ?>      
+			<?php else : ?>
+				<?php
+				if(is_active_sidebar('sidebar-home')){
+					dynamic_sidebar('sidebar-home'); } ?>
+				<?php endif; ?>
+			</aside>
 		<?php endwhile; ?>
 	<?php endif; ?>
 </div><!-- end of main-inner -->
