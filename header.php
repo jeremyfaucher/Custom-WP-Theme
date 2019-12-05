@@ -15,7 +15,7 @@
 <body <?php body_class(); ?>>
   <header class="site-header container" role="banner">
    <div class="logo">
-    <a href="<?php echo get_home_url(); ?>" class="desktop" rel="home" itemprop="url"><img src="<?php site_url(); ?>/wp-content/uploads/logo.png" class="logo" alt="Chip Bakery" /></a>
+    <a href="<?php echo get_home_url(); ?>" class="desktop" rel="home" itemprop="url"><img src="<?php site_url(); ?><?php echo get_home_url(); ?>/wp-content/uploads/theme/images/logo.png" class="logo" alt="cafe faucher" /></a>
   </div>
   <div class="menu-block">
    <nav class="mobile-menu">
